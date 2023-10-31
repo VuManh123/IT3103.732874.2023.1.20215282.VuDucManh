@@ -1,0 +1,4 @@
+- If you create a constructor method to build a DVD by title then create a constructor method to build a DVD by category. Does JAVA allow you to do this?
+
+- Trong trường hợp xây dựng DVD theo thể loại (1 tham số duy nhất), nếu đã có một constructor khác để xây dựng theo tác giả (với một tham số khác), thì sẽ gây mơ hồ và không rõ ràng. Điều này là do cả hai constructor đều chỉ nhận một tham số và không có cách nào để phân biệt chúng chỉ qua số lượng tham số. Java không cho phép các constructor có cùng loại tham số và số lượng tham số, vì nó không thể phân biệt được chúng.
+- Trong trường hợp xây dựng DVD theo thể loại đi cùng với một hoặc nhiều tham số khác, điều này là hoàn toàn hợp lý và hợp quy tắc. Nếu constructor xây dựng DVD theo thể loại có các tham số bổ sung để mô tả chi tiết hơn về DVD, thì vẫn có thể phân biệt được chúng dựa trên số lượng và loại tham số.
