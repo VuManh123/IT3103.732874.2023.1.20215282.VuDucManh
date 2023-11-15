@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ea958b8-3d59-48bc-be73-503ddce2ed3f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Report/20215282-VuDucManh-BC_TH_Lab3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Report/20215282-VuDucManh-BC_TH_Lab3.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Report/~$215282-VuDucManh-BC_TH_Lab3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Report/~WRL3906.tmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/soict/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soict/Aims.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/soict/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soict/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/soict/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soict/DigitalVideoDisc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +20,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2YCUwn8lQuA8gaHvoAXd7ti5gzu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,7 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "topic/method-overloading",
+    "git-widget-placeholder": "feature/print-cart",
     "last_opened_file_path": "D:/Documents/Subjets_2023.1/T7_OOP_Lab/lab02/AimsProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

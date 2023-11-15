@@ -72,4 +72,10 @@ public class DigitalVideoDisc {
         this.length = length;
         this.cost = cost;
     }
+
+    // Lab 03
+    // Write a toString() method for the DigitalVideoDisc class.
+    public String toString() {
+        return "DVD" + " - " + title + " - " + category + " - " + director + " - " + length + " : " + cost + " $";
+    }
 }

@@ -78,4 +78,15 @@ public class Cart {
             System.out.println("The disc has been added");
         }
     }
+
+    // Lab 03: Print()
+    public void print() {
+        System.out.println("***********************CART***********************");
+        System.out.println("Ordered Items:");
+        for (int i = 0; i < qtyOrdered; i++) {
+            System.out.println(itemsOrdered[i].getTitle()) ;
+        }
+        System.out.println("Total cost: " + this.totalCost());
+        System.out.println("**************************************************");
+    }
 }
