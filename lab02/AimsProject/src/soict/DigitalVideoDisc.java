@@ -7,6 +7,7 @@ public class DigitalVideoDisc {
     private String director;
     private int length;
     private float cost;
+    private int ID;
 
     // Phần 1: Generate getter (Phương thức truy xuất giá trị)
 
