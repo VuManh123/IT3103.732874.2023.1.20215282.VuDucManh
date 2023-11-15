@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9aade9d2-8a32-4fc1-9ec4-92eb635cffba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T7_OOP_Lab.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab01/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab01/out/production/lab01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab01/out/production/lab01/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab01/out/production/lab01/20215282-VuDucManh-BC_TH_Lab1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab01/out/production/lab01/~$215282-VuDucManh-BC_TH_Lab1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab01/out/production/lab01/~WRL3678.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/answers.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/soict/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/soict/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/soict/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +38,29 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Documents/Subjets_2023.1/T7_OOP_Lab/lab02",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="lab02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="lab02" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +72,7 @@
       <workItem from="1699694030905" duration="34000" />
       <workItem from="1699694106944" duration="54000" />
       <workItem from="1700029011074" duration="265000" />
+      <workItem from="1700045063742" duration="636000" />
     </task>
     <servers />
   </component>
