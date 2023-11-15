@@ -50,4 +50,32 @@ public class Cart {
         }
         return totalCost;
     }
+
+    // Lab 03: Method overloading
+    // Phương thức để thêm một danh sách đĩa DVD vào giỏ hàng
+    public void addDigitalVideoDisc(DigitalVideoDisc [] dvdList){
+        if (qtyOrdered + dvdList.length > MAX_NUMBERS_ORDERED) {
+            System.out.println("The cart is almost full");
+            return;
+        } else {
+            for (int i = 0; i < dvdList.length; i++) {
+                itemsOrdered[qtyOrdered] = dvdList[i];
+                qtyOrdered++;
+                System.out.println("The disc has been added");
+            }
+        }
+    }
+    // Phương thức để thêm 2 đĩa DVD vào giỏ hàng
+    public void addDigitalVideoDisc (DigitalVideoDisc dvd1, DigitalVideoDisc dvd2) {
+        if (qtyOrdered + 2 > MAX_NUMBERS_ORDERED) {
+            System.out.println("The cart is almost full");
+            return;
+        } else {
+            itemsOrdered[qtyOrdered] = dvd1;
+            qtyOrdered++;
+            itemsOrdered[qtyOrdered] = dvd2;
+            qtyOrdered++;
+            System.out.println("The disc has been added");
+        }
+    }
 }
