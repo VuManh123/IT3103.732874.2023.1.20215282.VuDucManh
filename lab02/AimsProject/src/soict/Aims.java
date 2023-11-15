@@ -14,7 +14,7 @@ public class Aims {
 
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladdin", "Animation", 18.99F);
         anOrder.addDigitalVideoDisc(dvd3);
-
+git 
         // In tổng giá trị của giỏ hàng
         System.out.println("Total Cost is: ");
         System.out.println(anOrder.totalCost());
