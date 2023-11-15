@@ -79,17 +79,16 @@ public class Cart {
         }
     }
 
-<<<<<<< HEAD
     // Lab 03: Print()
     public void print() {
         System.out.println("***********************CART***********************");
         System.out.println("Ordered Items:");
         for (int i = 0; i < qtyOrdered; i++) {
-            System.out.println(itemsOrdered[i].getTitle()) ;
+            System.out.println(itemsOrdered[i].getTitle());
         }
         System.out.println("Total cost: " + this.totalCost());
         System.out.println("**************************************************");
-=======
+    }
     //Lab 03: Search
     public void search(String title) {
         int index = 0;
@@ -117,6 +116,5 @@ public class Cart {
         } else {
             System.out.println("Find " + index + id + "DVD\n");
         }
->>>>>>> feature/search-cart
     }
 }

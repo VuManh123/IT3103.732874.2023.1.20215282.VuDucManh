@@ -14,7 +14,6 @@ public class Aims {
 
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladdin", "Animation", 18.99F);
         anOrder.addDigitalVideoDisc(dvd3);
-git 
         // In tổng giá trị của giỏ hàng
         System.out.println("Total Cost is: ");
         System.out.println(anOrder.totalCost());
@@ -38,12 +37,9 @@ git
         DigitalVideoDisc dvd5 = new DigitalVideoDisc("Movie B", "Category 3", "Director B", 140, 22.99f);
 
         anOrder.addDigitalVideoDisc(dvd4, dvd5);
-<<<<<<< HEAD
 
         anOrder.print();
-=======
         anOrder.search(1);
         anOrder.search("The Lion King");
->>>>>>> feature/search-cart
     }
 }
