@@ -38,5 +38,7 @@ public class Aims {
         DigitalVideoDisc dvd5 = new DigitalVideoDisc("Movie B", "Category 3", "Director B", 140, 22.99f);
 
         anOrder.addDigitalVideoDisc(dvd4, dvd5);
+        anOrder.search(1);
+        anOrder.search("The Lion King");
     }
 }

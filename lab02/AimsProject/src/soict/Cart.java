@@ -78,4 +78,33 @@ public class Cart {
             System.out.println("The disc has been added");
         }
     }
+
+    //Lab 03: Search
+    public void search(String title) {
+        int index = 0;
+        for (int i = 0; i < qtyOrdered; i++) {
+            if (itemsOrdered[i].getTitle() == title) {
+                index++;
+            }
+        }
+        if (index == 0 || qtyOrdered == 0) {
+            System.out.println("Cannot find DVD!");
+        } else {
+            System.out.println("Find " + index + title + "DVD\n");
+        }
+    }
+
+    public void search(int id) {
+        int index = 0;
+        for (int i = 0; i < qtyOrdered; i++) {
+            if (itemsOrdered[i].getID() == id) {
+                index++;
+            }
+        }
+        if (index == 0 || qtyOrdered == 0) {
+            System.out.println("Cannot find DVD!");
+        } else {
+            System.out.println("Find " + index + id + "DVD\n");
+        }
+    }
 }

@@ -7,6 +7,7 @@ public class DigitalVideoDisc {
     private String director;
     private int length;
     private float cost;
+    private int ID;
 
     // Phần 1: Generate getter (Phương thức truy xuất giá trị)
 
@@ -71,5 +72,12 @@ public class DigitalVideoDisc {
         this.director = director;
         this.length = length;
         this.cost = cost;
+    }
+
+    public int getID() {
+        return ID;
+    }
+    public void setID(int iD) {
+        ID = iD;
     }
 }
