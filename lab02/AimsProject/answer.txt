@@ -1,0 +1,24 @@
+Lab 02:
+- If you create a constructor method to build a DVD by title then create a constructor method to build a DVD by category. Does JAVA allow you to do this?
+
+- Trong trường hợp xây dựng DVD theo thể loại (1 tham số duy nhất), nếu đã có một constructor khác để xây dựng theo tác giả (với một tham số khác), thì sẽ gây mơ hồ và không rõ ràng. Điều này là do cả hai constructor đều chỉ nhận một tham số và không có cách nào để phân biệt chúng chỉ qua số lượng tham số. Java không cho phép các constructor có cùng loại tham số và số lượng tham số, vì nó không thể phân biệt được chúng.
+- Trong trường hợp xây dựng DVD theo thể loại đi cùng với một hoặc nhiều tham số khác, điều này là hoàn toàn hợp lý và hợp quy tắc. Nếu constructor xây dựng DVD theo thể loại có các tham số bổ sung để mô tả chi tiết hơn về DVD, thì vẫn có thể phân biệt được chúng dựa trên số lượng và loại tham số.
+
+Lab03:
+Question 1: Try to add a method addDigitalVideoDisc which allows to pass an arbitrary number of arguments for dvd. Compare to an array parameter. What do you prefer in this case?
+=> So sánh:
+- Tính dễ đọc so với tính chính xác: Các biến thể có thể ngắn gọn hơn về mặt cú pháp gọi phương thức, nhưng việc sử dụng tham số mảng có thể làm cho mã rõ ràng và dễ đọc hơn.
+
+- Tính linh hoạt so với khả năng kiểm soát: Varargs mang lại sự linh hoạt hơn vì người dùng có thể chuyển bất kỳ số lượng đối số nào. Mặt khác, việc sử dụng tham số mảng cho phép bạn kiểm soát nhiều hơn đối với dữ liệu đầu vào dự kiến.
+
+- Hiệu suất: Về mặt hiệu suất, việc sử dụng mảng có thể hiệu quả hơn một chút vì các biến thể liên quan đến việc tạo một mảng ở hậu trường.
+
+=> Sở thích cá nhân:
+Trong trường hợp này, em thích sử dụng truyền số lượng tùy ý cho dvd vì chúng ta thường gặp những trường hợp số lượng chuyền vào lớn mà ko biết trước.
+
+Đối với các phương pháp như addDigitalVideoDisc, trong đó người dùng có thể thêm nhiều DVD cùng một lúc, cả hai phương pháp đều có thể hợp lý. Chọn một cái phù hợp hơn với phong cách mã hóa và thiết kế tổng thể của ứng dụng của bạn.
+
+Question 2: Is JAVA a Pass by Value or a Pass by Reference programming language? 
+=> In Java, when you pass a variable to a method, you are passing the value of the variable, not the actual variable itself. This is known as "pass-by-value."
+
+In the context of method parameters, passing by value means that a copy of the value stored in the variable is passed to the method. Any changes made to the parameter inside the method do not affect the original variable outside the method.
