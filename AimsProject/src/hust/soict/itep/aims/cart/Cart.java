@@ -1,6 +1,6 @@
-package hust.soict.dsai.aims.cart;
+package hust.soict.itep.aims.cart;
 
-import hust.soict.dsai.aims.disc.DigitalVideoDisc;
+import hust.soict.itep.aims.disc.DigitalVideoDisc;
 
 public class Cart {
     // Định nghĩa hằng số MAX_NUMBERS_ORDERED với giá trị 20, giới hạn số lượng đĩa có thể được thêm vào giỏ hàng

@@ -1,6 +1,6 @@
-package hust.soict.dsai.aims.store;
+package hust.soict.itep.aims.store;
 
-import hust.soict.dsai.aims.disc.DigitalVideoDisc;
+import hust.soict.itep.aims.disc.DigitalVideoDisc;
 
 public class Store {
     public static final int MAX_NUMBERS_ORDERED = 100;

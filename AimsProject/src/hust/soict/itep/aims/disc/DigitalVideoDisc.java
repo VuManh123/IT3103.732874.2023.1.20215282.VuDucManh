@@ -1,4 +1,4 @@
-package hust.soict.dsai.aims.disc;
+package hust.soict.itep.aims.disc;
 
 public class DigitalVideoDisc {
     // Khai báo các thuộc tính của lớp DigitalVideoDisc

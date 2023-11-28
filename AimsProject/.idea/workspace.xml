@@ -4,25 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
     <list default="true" id="3ea958b8-3d59-48bc-be73-503ddce2ed3f" name="Changes" comment="Passing Parameter">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_4_18_PM_[Changes]1/20215282-VuDucManh-BC_TH_Lab3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_4_18_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_4_18_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_4_18_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_4_18_PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_8_40_PM_[Changes]/20215282-VuDucManh-BC_TH_Lab3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_8_40_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-    <list default="true" id="3ea958b8-3d59-48bc-be73-503ddce2ed3f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Report/20215282-VuDucManh-BC_TH_Lab3.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Report/20215282-VuDucManh-BC_TH_Lab3.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Report/~$215282-VuDucManh-BC_TH_Lab3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Report/~WRL3906.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/soict/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soict/Aims.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/soict/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soict/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/soict/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soict/DigitalVideoDisc.java" afterDir="false" />
->>>>>>> feature/print-cart
-=======
-    <list default="true" id="3ea958b8-3d59-48bc-be73-503ddce2ed3f" name="Changes" comment="Passing Parameter">
-      <change beforePath="$PROJECT_DIR$/src/soict/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soict/Aims.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/soict/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soict/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/soict/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soict/DigitalVideoDisc.java" afterDir="false" />
->>>>>>> feature/search-cart
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/aims/Aims.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/aims/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/aims/disc/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/aims/disc/DigitalVideoDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/aims/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/test/cart/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/test/cart/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/test/disc/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/test/disc/TestPassingParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/test/store/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/test/store/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/soict/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soict/TestPassingParameter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +36,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/../.." value="refactor/packages" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -57,15 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-<<<<<<< HEAD
-<<<<<<< HEAD
     "git-widget-placeholder": "master",
-=======
-    "git-widget-placeholder": "feature/print-cart",
->>>>>>> feature/print-cart
-=======
-    "git-widget-placeholder": "feature/search-cart",
->>>>>>> feature/search-cart
     "last_opened_file_path": "D:/Documents/Subjets_2023.1/T7_OOP_Lab/lab02/AimsProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,26 +60,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="TestPassingParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="soict.TestPassingParameter" />
-      <module name="AimsProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="soict.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.TestPassingParameter" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -102,25 +68,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700029296014</updated>
-      <workItem from="1700029296906" duration="7456000" />
+      <workItem from="1700029296906" duration="2345000" />
+      <workItem from="1701181477339" duration="6306000" />
     </task>
-    <task id="LOCAL-00001" summary="Passing Parameter">
-      <option name="closed" value="true" />
-      <created>1700036933076</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1700036933076</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Passing Parameter">
-      <option name="closed" value="true" />
-      <created>1700037397569</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1700037397569</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
