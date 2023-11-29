@@ -22,3 +22,29 @@ Question 2: Is JAVA a Pass by Value or a Pass by Reference programming language?
 => In Java, when you pass a variable to a method, you are passing the value of the variable, not the actual variable itself. This is known as "pass-by-value."
 
 In the context of method parameters, passing by value means that a copy of the value stored in the variable is passed to the method. Any changes made to the parameter inside the method do not affect the original variable outside the method.
+
+-- Lab 04
+-Which classes are aggregates of other classes? 
+Checking all constructors of whole classes if they initialize for their parts?
+CompactDisc and Track
+MediaComparatorByCostTitle, MediaComparatorByTitleCost and Media
+Media and Store
+Media and Cart
+Store and Aims
+Cart and Aims
+
+-If the passing object is not an instance of Media, what happens?
+Lỗi không chạy được. Do các thuộc tính cần phải so sánh không có tồn tại nên sẽ không thể truyền được tham trị.
+
+-What class should implement the Comparable interface?
+Class Media
+
+-In those classes, how should you implement the compareTo()method be to reflect the ordering that we want?
+So sánh theo Title hoặc theo Cost trước rồi so sánh theo cái còn lại 
+
+-Can we have two ordering rules of the item (by title then cost and by cost then title) if we use this Comparable interface approach?
+Không được do chỉ tồn tại một phương thức CompareTo() cho một lớp 
+-Suppose the DVDs has a different ordering rule from the other media types,that is by title, then decreasing length, then cost. 
+How would you modify your code to allow this?
+Sử dụng Ghi đè (Override) cho phương thức compareTo() ở lớp DVD để phù hợp cho việc DVD này so sánh với DVD khác
+
