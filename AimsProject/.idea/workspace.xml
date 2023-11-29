@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ea958b8-3d59-48bc-be73-503ddce2ed3f" name="Changes" comment="Passing Parameter">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_4_18_PM_[Changes]1/20215282-VuDucManh-BC_TH_Lab3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_4_18_PM_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_4_18_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_4_18_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_4_18_PM__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_8_40_PM_[Changes]/20215282-VuDucManh-BC_TH_Lab3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2023_8_40_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/soict/itep/aims/media/MediaComparatorByCostTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/soict/itep/aims/media/MediaComparatorByTitleCost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/aims/Aims.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/aims/cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/aims/disc/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/aims/disc/DigitalVideoDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/aims/media/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/aims/media/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/aims/media/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/aims/media/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/aims/media/Track.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/aims/store/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/test/cart/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/test/cart/CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/test/disc/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/test/disc/TestPassingParameter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hust/soict/itep/test/store/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/itep/test/store/StoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/soict/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/soict/TestPassingParameter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,20 +41,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Documents/Subjets_2023.1/T7_OOP_Lab/lab02/AimsProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Subjets_2023.1/T7_OOP_Lab/lab02/AimsProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,6 +65,7 @@
       <updated>1700029296014</updated>
       <workItem from="1700029296906" duration="2345000" />
       <workItem from="1701181477339" duration="6306000" />
+      <workItem from="1701194660832" duration="14071000" />
     </task>
     <servers />
   </component>

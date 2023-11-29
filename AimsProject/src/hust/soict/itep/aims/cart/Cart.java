@@ -86,4 +86,31 @@ public class Cart {
         return null;
     }
 
+    public void sortTitle() {
+        Collections.sort(itemsOrdered, Media.COMPARE_BY_TITLE_COST);
+    }
+    public void sortCost() {
+        Collections.sort(itemsOrdered, Media.COMPARE_BY_COST_TITLE);
+    }
+    public void filterById(int id) {
+        for (Media item : itemsOrdered) {
+            if (item.getId() == id) {
+                System.out.println(item.toString());
+            }
+        }
+    }
+    public void filterByTitle(String title) {
+        for (Media item : itemsOrdered) {
+            if (item.getTitle().equals(title)) {
+                System.out.println(item.toString());
+            }
+        }
+    }
+
+    public void clear() {
+        // TODO Auto-generated method stub
+        itemsOrdered.clear();
+        System.out.println("Cart is cleared");
+
+    }
 }

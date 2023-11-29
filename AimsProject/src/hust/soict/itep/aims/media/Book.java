@@ -64,5 +64,10 @@ public class Book extends Media{
         }
         System.out.println(AUTHOR_NOT_EXIST_MESSAGE);
     }
+
+    // ToString() Method
+    public String toString() {
+        return "Book ID: " + this.id + " Title: " + this.title + " Author: " + this.authors + " Category: " + this.category + " Cost: " + this.cost + "$";
+    }
 }
 

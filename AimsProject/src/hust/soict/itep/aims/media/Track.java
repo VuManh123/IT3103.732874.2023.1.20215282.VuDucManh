@@ -28,4 +28,14 @@ public class Track implements Playable {
         System.out.println("Playing DVD: " + this.getTitle());
         System.out.println("DVD length: " + this.getLength());
     }
+
+    // 10.	Unique item in a list
+    public boolean equals(Object x) {
+        if(x instanceof Track) {
+            Track tmp = (Track) x;
+            return tmp.getTitle().toLowerCase().equals(this.title.toLowerCase()) && tmp.getLength()== this.length;
+        }
+        return false;
+    }
+
 }
