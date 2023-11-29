@@ -1,44 +1,53 @@
 package hust.soict.itep.aims.store;
 
 import hust.soict.itep.aims.media.DigitalVideoDisc;
+import hust.soict.itep.aims.media.Media;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Store {
-    public static final int MAX_NUMBERS_ORDERED = 100;
-    private DigitalVideoDisc itemsInStore[] = new DigitalVideoDisc[MAX_NUMBERS_ORDERED];
-    private int qtyStore = 0;
-
+    private List<Media> itemsInStore = new ArrayList<Media>();
     // Method add DVD
-    public void addDigitalVideoDisc(DigitalVideoDisc disc) {
-        if (qtyStore == MAX_NUMBERS_ORDERED) {
-            System.out.println("The store is almost full");
+    public void addMedia(Media item) {
+        if (item == null) {
+            System.out.println("Not found item! ");
             return;
         } else {
-            itemsInStore[qtyStore] = disc;
-            qtyStore++;
-            System.out.println("The disc has been added");
+            if(itemsInStore.contains(item)) {
+                System.out.println("Item is already in the list!");
+                return;
+            } else {
+                System.out.println("Item " + item.getTitle() +" add successfully");
+                itemsInStore.add(item);
+            }
         }
     }
     //Remove
-    public void removeDigitalVideoDisc(DigitalVideoDisc disc) {
-        int index = 0;
-        for (int i = 0; i < qtyStore; i++) {
-            if (itemsInStore[i].equals(disc) ) {
-                System.out.println("Remove " + itemsInStore[i].getTitle());
-                System.arraycopy(itemsInStore, i+1, itemsInStore, i, itemsInStore.length-i-1);
-                i--;
-                qtyStore --;
-                index ++;
-            } else if (i == qtyStore-1 && index == 0) {
-                System.out.println("Not found!");
-            }
+    public void removeMedia(Media item) {
+        if(!itemsInStore.contains(item)) {
+            System.out.println("Item is not already in the list!");
+            return;
+        } else {
+            System.out.println("Item " + item.getTitle() +" remove successfully");
+            itemsInStore.remove(item);
         }
     }
     //Total cost
     public float totalCost() {
         float total = 0;
-        for (int i = 0; i < qtyStore; i++) {
-            total += itemsInStore[i].getCost();
+        for (int i = 0; i < itemsInStore.size(); i++) {
+            total += itemsInStore.get(i).getCost();
         }
         return total;
+    }
+    //Search by Title
+    public Media searchTitle(String title) {
+        for (int i = 0; i < itemsInStore.size(); i++) {
+            if (itemsInStore.get(i).getTitle().equals(title)) {
+                return itemsInStore.get(i);
+            }
+        }
+        return null;
     }
 }
