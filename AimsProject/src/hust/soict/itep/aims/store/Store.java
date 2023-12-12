@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Store {
-    private List<Media> itemsInStore = new ArrayList<Media>();
+    private ArrayList<Media> itemsInStore = new ArrayList<Media>();
     // Method add DVD
     public void addMedia(Media item) {
         if (item == null) {
@@ -59,5 +59,9 @@ public class Store {
             System.out.println(itemsInStore.get(i).getTitle()) ;
         }
         System.out.println("**************************************************");
+    }
+
+    public ArrayList<Media> getItemsInStore() {
+        return itemsInStore;
     }
 }
