@@ -1,5 +1,7 @@
 package hust.soict.itep.aims.media;
 
+import hust.soict.itep.aims.exception.PlayerException;
+
 public class Track implements Playable {
     private String title;
     private int length;
@@ -23,10 +25,13 @@ public class Track implements Playable {
     public Track() {
         // TODO Auto-generated constructor stub
     }
-    public void play() {
-        // TODO Auto-generated method stub
-        System.out.println("Playing DVD: " + this.getTitle());
-        System.out.println("DVD length: " + this.getLength());
+    public void play() throws PlayerException {
+        if (this.getLength() > 0) {
+            System.out.println("Playing Track: " + this.getTitle());
+            System.out.println("Track length: " + this.getLength());
+        } else {
+            throw new PlayerException("ERROR: Track length is non-positive! ");
+        }
     }
 
     // 10.	Unique item in a list

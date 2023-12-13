@@ -1,27 +1,29 @@
 package hust.soict.itep.aims.store;
+import java.util.ArrayList;
 
-import hust.soict.itep.aims.media.DigitalVideoDisc;
 import hust.soict.itep.aims.media.Media;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Store {
-    private ArrayList<Media> itemsInStore = new ArrayList<Media>();
-    // Method add DVD
-    public void addMedia(Media item) {
+
+    public ArrayList<Media> getItemsInStore() {
+        return itemsInStore;
+    }
+    public ArrayList<Media> itemsInStore = new ArrayList<Media>();
+
+
+    //Add
+    public boolean addMedia(Media item) {
         if (item == null) {
             System.out.println("Not found item! ");
-            return;
         } else {
             if(itemsInStore.contains(item)) {
                 System.out.println("Item is already in the list!");
-                return;
             } else {
                 System.out.println("Item " + item.getTitle() +" add successfully");
                 itemsInStore.add(item);
             }
         }
+        return false;
     }
     //Remove
     public void removeMedia(Media item) {
@@ -41,6 +43,15 @@ public class Store {
         }
         return total;
     }
+    //Print
+    public void print() {
+        System.out.println("***********************STORE***********************");
+        System.out.println("Ordered Items:");
+        for (int i = 0; i < itemsInStore.size(); i++) {
+            System.out.println(itemsInStore.get(i).getTitle()) ;
+        }
+        System.out.println("**************************************************");
+    }
     //Search by Title
     public Media searchTitle(String title) {
         for (int i = 0; i < itemsInStore.size(); i++) {
@@ -51,17 +62,4 @@ public class Store {
         return null;
     }
 
-    // Print
-    public void print() {
-        System.out.println("***********************STORE***********************");
-        System.out.println("Ordered Items:");
-        for (int i = 0; i < itemsInStore.size(); i++) {
-            System.out.println(itemsInStore.get(i).getTitle()) ;
-        }
-        System.out.println("**************************************************");
-    }
-
-    public ArrayList<Media> getItemsInStore() {
-        return itemsInStore;
-    }
 }

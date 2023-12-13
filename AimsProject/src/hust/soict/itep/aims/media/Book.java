@@ -13,7 +13,7 @@ public class Book extends Media{
     private List<String> authors = new ArrayList<>();
 
     // Check các trường rỗng, giá nhỏ hơn 0
-    public Book(int id, String title, String category, float cost, List<String> authors)
+    public Book(String title, String category, float cost)
             throws NullPointerException, IllegalArgumentException {
         if (Objects.requireNonNull(title).isBlank()) {
             throw new NullPointerException("Title field is empty!");
@@ -24,14 +24,10 @@ public class Book extends Media{
         if (cost < 0) {
             throw new IllegalArgumentException("Cost cannot be negative!");
         }
-        if (authors == null || authors.isEmpty()) {
-            throw new NullPointerException("Authors field is empty!");
-        }
         this.id = id;
         this.title = title;
         this.category = category;
         this.cost = cost;
-        this.authors = new ArrayList<>(authors);
     }
 
     // TODO: Thêm các phương thức getter, setter nếu cần thiết

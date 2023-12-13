@@ -4,7 +4,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.*;
-import java.util.List;
 import javax.swing.*;
 
 import hust.soict.itep.aims.cart.Cart;
@@ -14,13 +13,13 @@ import hust.soict.itep.aims.media.DigitalVideoDisc;
 import hust.soict.itep.aims.media.Media;
 import hust.soict.itep.aims.media.Track;
 import hust.soict.itep.aims.store.Store;
+import hust.soict.itep.aims.screen.CartScreen;
 
 
 public class StoreScreen extends JFrame {
     private static Store store;
     private static Cart cart;
     private JPanel center;
-
     public StoreScreen(Store store, Cart cart) throws HeadlessException {
         this.store = store;
         this.cart = cart;
@@ -45,7 +44,6 @@ public class StoreScreen extends JFrame {
 
     public static void main(String[] args) throws HeadlessException {
         store = new Store();
-
         DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King",  "Animation", "Roger Allers", 87, 19.95f);
         store.addMedia(dvd1);
         DigitalVideoDisc dvd2 = new DigitalVideoDisc("Star Wars", "Science Fiction", "George Lucas", 87, 24.95f);
@@ -53,19 +51,17 @@ public class StoreScreen extends JFrame {
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin", "Animation", 18.99f);
         store.addMedia(dvd3);
 
-        CompactDisc cd = new CompactDisc("Hay Trao Cho Anh", "VPop", 17.04f, "Son Tung MTP", "MTP");
-        Track track1 = new Track("Bonjour", 17);
-        Track track2 = new Track("Monsieur", 22);
+        CompactDisc cd = new CompactDisc(52, "Pop", "Doi Bo", "Lu Tien", 17.04f, "Truc Nhan");
+        Track track1 = new Track("Duong", 17);
+        Track track2 = new Track("Hust", 22);
         cd.addTrack(track1);
         cd.addTrack(track2);
         store.addMedia(cd);
 
-        List<String> authors1 = new ArrayList<>();
-        authors1.add("Vu Duc Manh");
-        List<String> authors2 = new ArrayList<>();
-        authors2.add("Vu Duc Cuong");
-        Book book1 = new Book(2345, "Manh Vu", "Comic", 20.25f, authors1);
-        Book book2 = new Book(1234, "Hello Kitty", "Action", 17.04f, authors2);
+        Book book1 = new Book("Cho toi mot ve di tuoi tho", "Comic", 20.25f);
+        Book book2 = new Book("Toi thay hoa vang tren co xanh", "Action", 17.04f);
+        book1.addAuthor("Nguyen Ngoc Anh");
+        book2.addAuthor("Nguyen Ngoc Anh");
         store.addMedia(book1);
         store.addMedia(book2);
 
@@ -84,6 +80,9 @@ public class StoreScreen extends JFrame {
         smUpdateStore.add(addBookMenu);
         smUpdateStore.add(addCDMenu);
         smUpdateStore.add(addDVDMenu);
+        addBookMenu.addActionListener(new btnListener());
+        addDVDMenu.addActionListener(new btnListener());
+        addCDMenu.addActionListener(new btnListener());
 
 
         menu.add(smUpdateStore);
@@ -131,6 +130,32 @@ public class StoreScreen extends JFrame {
         }
 
         return center;
+    }
+
+
+    private class btnListener implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            String command = e.getActionCommand();
+            if(command.equals("View Cart")) {
+                new CartScreen(cart, store)
+                dispose();
+            }
+            if(command.equals("View Store")) {
+                new StoreScreen(store, cart);
+                dispose();
+            }
+            if(command.equals("Add DVD")) {
+                new AddDigitalVideoDiscToStoreScreen(store, cart, center);
+            }
+            if(command.equals("Add Book")) {
+                new AddBookToStoreScreen(store, cart, center);
+            }
+            if(command.equals("Add CD")) {
+                new AddCompactDiscToStoreScreen(store, cart, center);
+            }
+        }
     }
 
 }

@@ -1,5 +1,7 @@
 package hust.soict.itep.aims.media;
 
+import hust.soict.itep.aims.exception.PlayerException;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -21,7 +23,7 @@ public class CompactDisc extends Disc implements Playable {
         this.artist = artist;
         this.director = director;
     }
-    public CompactDisc() {
+    public CompactDisc(int i, String director, String title, String category, float v, String artist) {
         // TODO Auto-generated constructor stub
     }
 
@@ -57,10 +59,20 @@ public class CompactDisc extends Disc implements Playable {
         System.out.println("This track doesn't exist!");
         return false;
     }
-    public void play() {
-        // TODO Auto-generated method stub
-        for (int i = 0; i < tracks.size(); i++) {
-            tracks.get(i).play();
+    public void play() throws PlayerException {
+        if (this.getLength() > 0) {
+            Iterator<Track> iter = tracks.iterator();
+            Track nextTrack;
+            while(iter.hasNext()) {
+                nextTrack = (Track) iter.next();
+                try {
+                    nextTrack.play();
+                }catch(PlayerException e) {
+                    throw e;
+                }
+            }
+        } else {
+            throw new PlayerException("ERROR: CD length is non-positive! ");
         }
     }
 }

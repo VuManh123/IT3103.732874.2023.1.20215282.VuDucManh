@@ -6,10 +6,16 @@ import hust.soict.itep.aims.media.Media;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 public class Cart {
     // itemsOrdered array
-    private List<Media> itemsOrdered = new ArrayList<Media>();
+    public ObservableList<Media> getItemsOrdered() {
+        return itemsOrdered;
+    }
+
+    private ObservableList<Media> itemsOrdered = FXCollections.observableArrayList();
 
     // Method add Media
     public void addMedia(Media item ) {
